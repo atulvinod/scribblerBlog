@@ -1,0 +1,24 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+/* Css rule for the create post modal */
+.createPostDivider{
+   margin-top: 26% !important;
+   border: 2px solid lightgray;
+}  
+#submitPost{
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background-color: lightgreen;
+   font-weight: bold;
+}          
